@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Breth | Portfolio</title>
+  <meta name="description" content="Edit me - a short description of your portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Interactive Mouse Spotlight -->
+<div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+<!-- Animated Background Layer -->
+<div class="synthwave-bg" aria-hidden="true">
+  <div class="stars"></div>
+  <div class="cyber-grid"></div>
+</div>
+
+  <div class="progress" id="progress"></div>
+
+  <header class="site-header">
+    <a href="#home" class="logo">Breth</a> 
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span>
+    </button>
+    <nav id="nav" class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ================= HOME ================= -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="hello"></p>
+        <h1>Brethren Iana Opaco</h1> 
+        <p class="lead">Information Technology student with a focus on building intuitive web applications, robust systems, and thoughtful UI/UX. Driven by problem-solving, quality execution, and continuous learning.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn">View my projects</a>
+          <a href="#contact" class="btn btn-ghost">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="images/profile.png" width="360" height="440">
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <div class="about-grid reveal">
+        <div>
+          <p>I am a senior Information Technology student at Cebu Eastern College passionate about software development, UI/UX design, and student leadership. Driven by curiosity and practical problem-solving, I focus on building functional digital solutions while continuously expanding my technical and analytical skills.</p>
+          <p>Outside the classroom, I enjoy going places like beaches and nature, experimenting with cooking, and listening to music. I love balancing the technical logic of tech with creative projects, event organization, and continuous personal growth. </p>
+        </div>
+        <ul class="facts">
+          <li><span>School</span> Cebu Eastern College, Inc.</li>
+          <li><span>Course</span> Bachelor of Science in Information Technology</li>
+          <li><span>Year</span> 4th Year (A.Y. 2026-2027)</li>
+          <li><span>Birthday</span>May 17, 2005</li>
+          <li><span>Interests</span> Web Dev, UI/ UX, Tavel, Music</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <p class="section-note">My technical skills reflect what I have learned and practiced throughout my Information Technology studies.</p>
+      <div class="skills reveal">
+        <div class="skill"><strong>Basic Computer Knowledge</strong><em>Master</em></div>
+        <div class="skill"><strong>PHP & SQL Database System (MSAccess & XAMPP)</strong><em>Learning</em></div>
+        <div class="skill"><strong>HTML, CSS and JavaScript</strong><em>Comfortable</em></div>
+        <div class="skill"><strong>C,Java and Python</strong><em>Learning</em></div>
+        <div class="skill"><strong>Microsoft Office/ Google Workspace</strong><em>Proficient</em></div>
+        <div class="skill"><strong>Basic Graphic Design</strong><em>Comfortable</em></div>
+        <div class="skill"><strong>Figma (UI/UX Design)</strong><em>Comfortable</em></div>
+      </div>
+    </section>
+
+      <section id="skills" class="section">
+      <h2>Leadership Skills</h2>
+      <p class="section-note"> Through student leadership and academic activities, I continue to develop my ability to work with others, make decisions, and take responsibility while learning from new experiences.</p>
+      <div class="skills reveal">
+        <div class="skill"><strong>Collaboration and Teamwork</strong><em>Beginner</em></div>
+        <div class="skill"><strong>Decision Making</strong><em>Learning</em></div>
+        <div class="skill"><strong>Communication Skill</strong><em>Comfortable</em></div>
+        <div class="skill"><strong>Organization and Planning</strong><em>Comfortable</em></div>
+        </div>
+        </section>
+    
+        <section id="skills" class="section">
+      <h2>Awards</h2>
+      <p class="section-note">Contest and Certificates Received</p>
+      <div class="skills reveal">
+        <div class="skill"><strong>Free Code Camp (Online) </strong><em>Master</em></div>
+        <div class="skill"><strong>ArBotics - Departmental Event (2024) </strong><em>Lead Organizer</em></div>
+        <div class="skill"><strong>CESAFI Computer Quix Bowl (2025)</strong><em>Held in CIT-U</em></div>
+        <div class="skill"><strong>LEAD2LEAD: Student Leaders Entrepreneurship Congress(2025)</strong><em>Held in MAAYO Hotel</em></div>
+        <div class="skill"><strong>Student Leadership Award (2025)</strong><em>Departmental Mayor</em></div>
+        <div class="skill"><strong>Student Leadership Award (2026)</strong><em>Departmental Coordinator and SSG Vice President</em></div>
+
+      </div>
+    </section>
+
+
+   <!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+  <h2>School Projects</h2>
+  <p class="section-note">The projects I have created and developed throughout my journey as an Information Technology student, from my first year to my fourth year in college.</p>
+  <div class="projects reveal">
+
+    <!-- PROJECT 1 -->
+    <article class="project">
+      <img src="images/project1.png" alt="Medical Appointment System">
+      <div class="project-body">
+        <h3>Medical Appointment System</h3>
+        <p>A school project built as a relational clinic scheduler, featuring real-time doctor availability, double-booking prevention, and automated patient status tracking.</p> 
+        <p><b>Web Application</b></p>
+      </div>
+    </article>
+
+    <!-- PROJECT 2 -->
+    <article class="project">
+      <img src="images/project2.png" alt="AUG Dept. Inventory Management System">
+      <div class="project-body">
+        <h3>AUG Dept. Inventory Management System</h3>
+        <p>A school project built as a relational web portal with full CRUD features, automated low-stock alerts, and supplier transaction logs.</p>
+        <p><b>Web Application</b></p>
+      </div>
+    </article>
+
+    <!-- PROJECT 3 -->
+    <article class="project">
+      <img src="images/project4.png" alt="AUG Fit">
+      <div class="project-body">
+        <h3>AUG Fit (Capstone Project) - Ongoing</h3>
+        <p>An Artificial Intelligence Powered Mobile Application for Virtual Clothing Try on for Alaska Underground Clothing Store.</p>
+        <p><b>Mobile Application</b></p>
+      </div>
+    </article>
+
+    <!-- PROJECT 4 -->
+    <article class="project">
+      <img src="images/project3.png" alt="AUG Dept. Inventory Management System Python">
+      <div class="project-body">
+        <h3>AUG Dept. Inventory Management System (Python)</h3>
+        <p>A school project built with Python to track multi-location stock movements, featuring automated reorder thresholds and audit exports.</p> 
+        <p><b>Web Application</b></p>
+      </div>
+    </article>
+
+    <!-- PROJECT 5 -->
+    <article class="project">
+      <img src="images/project5.png" alt="Mineski Kitchen Online Appointment">
+      <div class="project-body">
+        <h3>Mineski Kitchen Online Appointment</h3>
+        <p>A school project built as a front-end restaurant reservation portal, featuring table appointment booking, menu exploration, interactive navigation, and custom brand showcase.</p> 
+        <p><b>Web Application</b></p>
+      </div>
+    </article>
+
+     <!-- PROJECT 6 -->
+    <article class="project">
+      <img src="images/project6.png" alt="Student Portal">
+      <div class="project-body">
+        <h3>Student Portal System</h3>
+        <p>A school project built as a relational student information portal using PHP and MySQL, featuring student registration, enrollment record management, and secure directory lookups.</p> 
+        <p><b>Web Application</b></p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+      <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+      <h2>Leadership Projects</h2>
+      <p class="section-note"> Student Leader for 2 Consecutive Years</p>
+      <div class="projects reveal">
+
+        <!-- PROJECT 1 - EDIT ME: screenshot, title, explanation, contribution, link -->
+        <article class="project">
+          <img src="images/MAYOR.png">
+          <div class="project-body">
+            <h3>Information Technology Student Council - Mayor (2024-2025)</h3>
+            <p>Description:
+              -Led departmental initiatives and represented student concerns in meetings and
+              events.
+              -Collaborated with faculty and student leaders to organize activities and
+              academic programs.
+              -Strengthened communication and leadership skills through active
+              involvement in student governance.</p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="images/VPRES.png">
+          <div class="project-body">
+            <h3>Supreme Student Government - Vice President (2025-2026)</h3>
+            <p>Assists the President in overseeing all student government activities and ensures smooth coordination between officers, committees, and school administration. Leads and supervises projects, represents the student body in meetings, and helps implement programs that promote student welfare and engagement.</p>
+          </div>
+        </article>
+        
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section contact">
+      <h2>Let's talk</h2>
+      <p class="section-note">Reach me through my accounts!</p>
+      <!-- EDIT ME: replace your.email@example.com in BOTH places below -->
+      <a href="mailto:brethrenopaco1@gmail.com" class="btn btn-big">brethrenopaco1@gmail.com</a>
+      <div class="profiles">
+        <!-- EDIT ME: add your profile links, or delete lines you don't need -->
+        <a href="https://www.facebook.com/brethrn.iana" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://wa.me/brethren.iana" target="_blank" rel="noopener">Whatsapp</a>
+        <!-- OPTIONAL resume: put your PDF in assets/resume.pdf, then remove the comment marks on the next line
+        <a href="assets/resume.pdf" download>Download resume</a>
+        -->
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Brethren Iana Domingo Opaco</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">&#8593;</button>
+
+  <script src="script.js"></script>
+
+  <script>
+  (() => {
+    const glow = document.getElementById('cursorGlow');
+    if (!glow || window.matchMedia('(hover: none)').matches) return;
+
+    let mouseX = -600, mouseY = -600;
+    let currentX = -600, currentY = -600;
+    let isVisible = false;
+
+    window.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+
+      if (!isVisible) {
+        isVisible = true;
+        glow.style.opacity = '1';
+      }
+    });
+
+    document.addEventListener('mouseleave', () => {
+      isVisible = false;
+      glow.style.opacity = '0';
+    });
+
+    // Smooth physics loop
+    function animate() {
+      // Linear interpolation factor (0.12 gives a soft fluid trail)
+      currentX += (mouseX - currentX) * 0.12;
+      currentY += (mouseY - currentY) * 0.12;
+
+      glow.style.left = `${currentX}px`;
+      glow.style.top = `${currentY}px`;
+
+      requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);
+  })();
+</script>
+</body>
+</html>
